@@ -196,7 +196,6 @@ function jugar_otra_vez() {
     encontrada = false;
     iguales = false;
     intentos = 0;
-    puntaje = 0;
     letra_seleccionada = '';
     letras_usadas = '';
     palabra_en_cuadro = [];
