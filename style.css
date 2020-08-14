@@ -105,3 +105,76 @@ body {
     font-size: 29px;
     
 }
+
+
+@media all and (max-width:800px){
+
+
+.letters {
+    /* width: 90%; */
+    /* margin: 0 auto 40px auto; */
+    /* gap: 30px; */
+    width: 95%;
+    margin: 0 auto 15px auto;
+    gap: 5px;
+  }
+  
+  .letter {
+    /* padding: 10px; */
+    /* font-size: 50px; */
+    padding: 8px;
+    font-size: 36px;
+  }
+  
+  .word-box {
+    /* font-size: 60px; */
+    font-size: 23px;
+  }
+  
+  .section {
+    /* flex-direction: row; */
+    /* margin: 20px auto 40px auto; */
+    /* gap: 50px; */
+    flex-direction: column;
+    margin: 3px auto 30px auto;
+    gap: 5px;
+  }
+  
+  .used {
+    /* font-size: 29px; */
+    font-size: 20px;
+  }
+  
+  .header {
+    /* font-size: 30px; */ 
+    font-size: 15px;
+    padding: 5px 6px;
+    justify-content: space-between;
+
+  }
+  
+  .again {
+    /* font-size: 20px; */
+    /* padding:5px */
+    font-size: 12px;
+    width: 49px;
+    text-align: center;
+    padding: 5px 20px;
+  }
+  
+  .hangman {
+    /* max-width: 50%; */
+    /* width: 209px; */
+    /* height: 216px; */
+    max-width: 74%;
+    width: 273px;
+    height: 212px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;    
+  }
+  .title{
+    width: 132px;
+    text-align: center;
+  }
+}
