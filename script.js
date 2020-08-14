@@ -203,6 +203,7 @@ function jugar_otra_vez() {
     palabra_clave_string = elegir_palabra();
     palabra_clave = palabra_clave_string.split("");
     longitud_palabra = palabra_clave.length;
+    $score.textContent = 'Puntaje: ' + puntaje
     $body.style['background-color'] = 'rgba(150, 215, 253, 0.863)'
     $hangman.style['background-image'] = `url('images/hangman${intentos}.png')`
     $used.innerHTML = '&nbsp'
