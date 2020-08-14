@@ -18,7 +18,7 @@ let palabra_parcial = '';
 let palabra_clave_string = elegir_palabra();
 let palabra_clave = palabra_clave_string.split("");
 let longitud_palabra = palabra_clave.length;
-$hangman.style['background-image'] = `url('image/hangman${intentos}.png')`
+$hangman.style['background-image'] = `url('images/hangman${intentos}.png')`
 $again.addEventListener('key', jugar_otra_vez)
 
 
@@ -205,7 +205,7 @@ function jugar_otra_vez() {
     palabra_clave = palabra_clave_string.split("");
     longitud_palabra = palabra_clave.length;
     $body.style['background-color'] = 'rgba(150, 215, 253, 0.863)'
-    $hangman.style['background-image'] = `url('image/hangman${intentos}.png')`
+    $hangman.style['background-image'] = `url('images/hangman${intentos}.png')`
     $used.innerHTML = '&nbsp'
     $title.textContent = 'Categoría: Paises'
     dibujar_letras();
@@ -265,7 +265,7 @@ function restar_vida() {
         perder()
     }
     else {
-        $hangman.style['background-image'] = `url('image/hangman${intentos}.png')`
+        $hangman.style['background-image'] = `url('images/hangman${intentos}.png')`
     }
 }
 
